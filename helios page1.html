@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gym Membership Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <style>
+     
+     input, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: yellow;
+      line-height: 22px;
+      }
+    
+      span.required {
+      color: red;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 20px;
+      }
+    .base-field form {
+      width: 300px;
+      padding: 20px;
+      border-radius: 6px;
+      background: #4c4c4c;
+      box-shadow: 0px 0px 15px #666;
+      border-style: solid;
+      border-color: black;
+      border-width: 2px;
+
+      }
+      
+    .base-field input, select {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      }
+    .base-field input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+     
+     
+      .item input:hover, .item select:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 5px 0 #095484;
+      color: black;
+
+      }
+      
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: 300px;
+      padding: 10px;
+      
+      border-radius: 5px; 
+      border-color: black;
+      background: #FCC62E;
+      font-size: 16px;
+      color: black;
+      border-width: 1px;
+      cursor: pointer;
+      }
+      .base-field button:hover {
+      background: whitesmoke;
+      }
+      @media (min-width: 568px) {
+      .name-item, .city-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .name-item input, .city-item input {
+      width: calc(50% - 20px);
+      }
+      .city-item select {
+      width: calc(50% - 8px);
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="base-field">
+    <div class="testbox">
+      <form action="/">
+
+      	 <div class="item">
+          <p>Email</p>
+          <input type="text" name="name" required/>
+        </div>
+
+        <div class="item">
+          <p>Email</p>
+          <input type="text" name="name" required/>
+        </div>
+
+        <div class="item">
+          <p>Email</p>
+          <input type="text" name="name" required/>
+        </div>
+
+        <div class="item">
+          <p>Email</p>
+          <input type="text" name="name" required/>
+        </div>
+               
+        <div class="item">
+          <p>Name</p>
+          <div class="name-item">
+            <input type="text" name="name" placeholder="First" required/>
+            <input type="text" name="name" placeholder="Last" required/>
+          </div>
+           <div class="btn-block">
+          <button type="submit" href="/">Login</button>
+        </div>
+
+        </div>
+      </div>
+
+        </div>
+       
+      </form>
+    </div>
+  </body>
+</html>
+
+
+
+
